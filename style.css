@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+section{
+    /* height: 100vh; */
+}
+.flexible{
+    display: flex;
+}
+h1{
+    font-size: 60px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 40px;
+}
+.half-width img{
+    width: 80%;
+}
+.header-div{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.header-div p{
+    color: gray;
+    margin-bottom: 50px;
+}
+span{
+    color: orange;
+}
+.order-link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+.banner-desc{
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.banner-img{
+    margin-left: 40px;
+}
+.banner-desc p{
+    color: gray;
+    margin-bottom: 50px;
+    line-height: 1.8em; 
+    font-size: 20px;
+}
+#banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.recipie-desc h2{
+    text-align: center;
+    
+}
+.recipie-desc p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+.food-item1{
+    width: 80%;
+    height: 70vh;
+    margin-left: 20%;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.food-item1 img{
+    width: 100%;
+}
+.food-item2{
+    width: 80%;
+    height: 70vh;
+
+    padding: 30px;
+    box-shadow: -5px 5px 5px 5px gray;
+    border: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.food-item2 img{
+    width: 100%;
+}
+#recipie{
+    margin-top: 100px;
+}
+#followers{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    box-shadow: -5px 5px 5px 5px gray;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.social-media{
+    padding-left: 150px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(1, 1, 29);
+    color: rgb(216, 206, 206);
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+footer h3{
+    font-size: 30px;
+    color: gray;
+}
